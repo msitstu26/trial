@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-               
+                sleep 300
                     echo 'This is a testing branch'
 
             }
