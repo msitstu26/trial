@@ -1,0 +1,20 @@
+pipeline {
+
+    agent { label 'docker-agent' }
+
+    stages {
+
+        stage("Hello") {
+
+            steps {
+
+               
+                    echo 'This is a testing branch'
+
+            }
+
+        }
+
+    }
+
+}
